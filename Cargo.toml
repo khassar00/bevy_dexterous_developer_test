@@ -1,0 +1,27 @@
+[package]
+name = "bevy_dexterous_developer_test"
+version = "0.1.0"
+edition = "2021"
+
+# Enable a small amount of optimization in the dev profile.
+[profile.dev]
+opt-level = 1
+
+# Enable a large amount of optimization in the dev profile for dependencies.
+[profile.dev.package."*"]
+opt-level = 3
+
+[lib]
+crate-type = ["rlib","dylib"]
+
+[features]
+default = ["hot"]
+hot = ["bevy_dexterous_developer/hot"]
+
+[[bin]]
+name = "launcher"
+path = "bins/launcher.rs"
+[dependencies]
+bevy = { version="0.14.1",features=["dynamic_linking","embedded_watcher"] }
+bevy_dexterous_developer = { version="0.4.0-alpha.0",git="https://github.com/khassar00/dexterous_developer_fork.git" }
+serde = "1" # If you want the serialization capacities
