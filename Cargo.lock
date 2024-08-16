@@ -509,7 +509,8 @@ dependencies = [
 [[package]]
 name = "bevy_dexterous_developer"
 version = "0.4.0-alpha.0"
-source = "git+https://github.com/khassar00/dexterous_developer_fork.git#97fbb1d09ffc547704002cd8255f3877cb266342"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "7cf43ab58af2eb684699b503c5e00338ef9faba42c50849295f938bb6287690b"
 dependencies = [
  "bevy_dexterous_developer_dynamic",
  "bevy_dexterous_developer_library",
@@ -518,7 +519,8 @@ dependencies = [
 [[package]]
 name = "bevy_dexterous_developer_dynamic"
 version = "0.4.0-alpha.0"
-source = "git+https://github.com/khassar00/dexterous_developer_fork.git#97fbb1d09ffc547704002cd8255f3877cb266342"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "7426624f3d8e048fb6d472943011c793da0ce2a92f12181e44160f4e484e5224"
 dependencies = [
  "bevy",
  "bevy_dexterous_developer_library",
@@ -529,7 +531,8 @@ dependencies = [
 [[package]]
 name = "bevy_dexterous_developer_library"
 version = "0.4.0-alpha.0"
-source = "git+https://github.com/khassar00/dexterous_developer_fork.git#97fbb1d09ffc547704002cd8255f3877cb266342"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "ea39277a1b05ee25f40ad456d6d0e5c88a932183a2c67e9186da182c3831bb5a"
 dependencies = [
  "anyhow",
  "bevy",
@@ -1766,7 +1769,8 @@ dependencies = [
 [[package]]
 name = "dexterous_developer_instance"
 version = "0.4.0-alpha.0"
-source = "git+https://github.com/khassar00/dexterous_developer_fork.git#97fbb1d09ffc547704002cd8255f3877cb266342"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "fef8f6e1f5cfe0cc23bd730506b792eab3f3657451692fd0852bea95e0a6d264"
 dependencies = [
  "anyhow",
  "camino",
@@ -1789,7 +1793,8 @@ dependencies = [
 [[package]]
 name = "dexterous_developer_types"
 version = "0.4.0-alpha.0"
-source = "git+https://github.com/khassar00/dexterous_developer_fork.git#97fbb1d09ffc547704002cd8255f3877cb266342"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "ed7c72e0c6543bdfe6a08c74b1c8af8e0fdac962f72c5760e62eab54790c3629"
 dependencies = [
  "camino",
  "serde",
